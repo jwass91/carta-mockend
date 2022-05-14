@@ -1,6 +1,6 @@
 {
     "Course": {
-        "title": { "string": {} },
+        "title": { "loremWords": { "minLength": 3, "maxLength": 10 } },
         "description": {
             "loremSentences": { "minLength": 100, "maxLength": 200 }
         }
